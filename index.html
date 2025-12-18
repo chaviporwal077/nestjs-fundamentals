@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TuteDude HTML Learning Project</title>
+</head>
+<body>
+
+    <header>
+        <h1><mark>Welcome to TuteDude</mark></h1> <p>This is a <strong>comprehensive</strong> demo project created to <em>demonstrate proficiency</em> in HTML[cite: 32].</p>
+        
+        <nav> <ul>
+                <li><a href="#about">About TD</a></li>
+                <li><a href="#menu">Our Menu</a></li>
+                <li><a href="#trivia">Taco Trivia</a></li>
+                <li><a href="#extras">Extras</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <figure> <img src="hero.jpg" alt="TuteDude Learning Platform" width="600">
+            <figcaption>TuteDude and a Drink</figcaption>
+        </figure>
+    </header>
+
+    <main> <section id="about">
+            <article> <h2>About <abbr title="TuteDude">TD</abbr></h2>
+                <p><strong>TuteDude</strong> was founded in <time datetime="2021">2021</time>[cite: 16]. This platform offers expert mentorship and internships for FREE[cite: 17].</p>
+                <blockquote>
+                    "Level up your career with expert mentorship."
+                    <cite>— TuteDude Team</cite> </blockquote>
+            </article>
+        </section>
+
+        <section id="menu">
+            <h2>TuteDude Complete Taco Menu</h2> [cite: 19]
+            <table border="1"> <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Small Portion</th>
+                        <th>Large Portion</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Traditional Tacos</td>
+                        <td>$5.00</td>
+                        <td>
+                            $9.00
+                            <table border="1">
+                                <tr><th colspan="2">Nutrition Info</th></tr>
+                                <tr><td>Calories</td><td>350 kcal</td></tr>
+                                <tr><td>Protein</td><td>15g</td></tr>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">All portions include fresh salsa[cite: 39].</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section id="trivia">
+            <h2>Taco Trivia</h2>
+            <aside> <details>
+                    <summary>Did you know?</summary>
+                    <p>Tacos are a staple of Mexican cuisine and have been around for centuries!</p>
+                </details>
+            </aside>
+        </section>
+
+        <section id="extras">
+            <h2>Media Examples</h2>
+            <p>Listen to our intro audio:</p>
+            <audio controls src="audio.mp3">Your browser does not support audio[cite: 44].</audio>
+            
+            <p>Watch our platform demo:</p>
+            <video controls width="400" src="video.mp4">Your browser does not support video[cite: 44].</video>
+        </section>
+
+        <section id="feedback">
+            <form action="#">
+                <fieldset> <legend>Feedback Form</legend>
+                    <p>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </p>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+                    <p>
+                        <label for="rating">Course Rating:</label>
+                        <select id="rating" name="rating">
+                            <option value="excellent">Excellent</option>
+                            <option value="good">Good</option>
+                            <option value="average">Average</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="comments">Comments:</label><br>
+                        <textarea id="comments" name="comments" rows="4" cols="30"></textarea>
+                    </p>
+                    <button type="submit">Submit Feedback</button>
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+
+    <footer id="contact">
+        <address> Contact us at: <br>
+            TuteDude HQ <br>
+            Email: <a href="mailto:support@tutedude.com">support@tutedude.com</a>
+        </address>
+        <p>&copy; <time datetime="2024">2024</time> TuteDude. All rights reserved[cite: 49].</p>
+    </footer>
+
+</body>
+</html>
